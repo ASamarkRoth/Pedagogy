@@ -1,0 +1,23 @@
+
+\documentclass[]{article}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[]{subcaption}
+\captionsetup[figure]{labelfont={bf,footnotesize},textfont=footnotesize}
+\captionsetup[table]{labelfont={bf,footnotesize},textfont=footnotesize}
+\usepackage{xcolor}
+\usepackage{listings}
+\lstset{
+  frame=single,
+  breaklines=true,
+  postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}}
+}
+\usepackage{hyperref}
+\usepackage[]{amsmath}
+
+\newcommand{\TwoRowCell}[2][c]{%
+\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+
+\begin{document}
+
+\end{document}
