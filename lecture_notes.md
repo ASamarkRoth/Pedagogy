@@ -170,6 +170,8 @@ _Kolla av om folk hänger med_:
 
 D. Kolb om kognitiv dissonans (för stora kunskapsförändringar):
 
+**Formulera examinationsfrågor:** Beroende på vilken kunskap som ska testas använd de verb som föreslås i _SOLO-taxonomin_.
+
 Konkret upplevelse -> Tid att reflektera -> Abstrakt tänkande -> Praktisk handling (Vad är det till för?)
 
 <menti.com>: Clickers, perfekt för föreläsningar!!!!
