@@ -1,4 +1,3 @@
-
 \documentclass[]{article}
 \usepackage{float}
 \usepackage{graphicx}
@@ -14,6 +13,7 @@
 }
 \usepackage{hyperref}
 \usepackage[]{amsmath}
+\usepackage{fancyhdr}
 
 \newcommand{\TwoRowCell}[2][c]{%
 \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
@@ -22,50 +22,58 @@
 %\bibliography{ref}
 
 \title{Student resistance towards independent learning}
+\author{Anton Roth}
+
+\pagestyle{fancy}
+\lhead{Anton Roth}
+\rhead{\today}
 
 \begin{document}
 
-Responsible for a laboratory exercise, named $\gamma$-spectroscopy, for second year university students resistance towards independent learning of the craft ``Data analysis'' was experienced. The students stated their worries during the lab and as the teacher it lead to practically giving the students the solutions. Of course this should not be the case.
+%\maketitle
 
 \section*{Teaching Scenario}
-Students taking the Physics programme at the Science faculty, Lund University, have a mandatory course on nuclear physics their second year, last semester.
+Students taking the Physics programme at the Science faculty, Lund University, have a mandatory course on nuclear physics their last semester of the second year.
 Complementary to the theoretically focused lectures, experimental laboratory exercises comprises a mandatory graded part of the course examination.
-The spring of 2017 I was supervising one of these labs, called {\it $\gamma$-spectroscopy}.
-This is a full-day lab which deals with the theory of detection of $\gamma$ rays before lunch and experimental measurements after lunch which aim to demonstrate important nuclear physics phenomena.
-All in all, mixed passive and active learning through the day.
-The students are examined with written reports that are performed in groups of two or three.
+The spring of 2017 I was supervising one of the course labs, called {\it $\gamma$-spectroscopy} (\url{http://www.fysik.lu.se/english/education/courses/basic-level/fysc01-course-package/nuclear-physics/laboratory-exercies/}).
+%This is a full-day lab which deals with the theory of detection of $\gamma$ rays before lunch and experimental measurements after lunch which aim to demonstrate important nuclear physics phenomena.
+%All in all, mixed passive and active learning through the day.
+On the lab the students are examined with written reports that are performed in groups of two or three.
 
-
-An important part of the work is, what we denote {\it data analysis}, which constitutes reading in experimental data, calculate specific properties and perform a statistical analysis on the obtained results.
-To successfully complete the data analysis the students need to independently obtain knowledge and program a code.
-At the point in the lab session when this is realised by the students, they presented their worries.
+An important part of the examination is, what is denoted, {\it data analysis}.
+The data analysis constitutes reading in experimental data, calculate specific properties and perform a statistical analysis on the obtained results.
+It is most preferably achieved with a programmed script.
+As opposed to the course in general and large parts of the lab itself, which have a knowledge/understanding learning focus, the data analysis is a skill/competence to be learned.
+Additionally, the students need to independently acquire the skill/competence while the rest of the course is more teacher supported.
+At the point in the lab session when the students realised what was about to come, they presented their worries.
 It is pointed out that they lack programming skills and basic knowledge of statistics.
 A template example code was provided via the course web page for the purpose of giving the students an extra push to the independent data analysis.
-In the process of completing the report several students turned to me for detailed descriptions of what code to implement, practically giving them the solution right away.
-Especially in these cases I realised something was not right.
+In the process of completing the report several students turned to me for detailed descriptions of what code to implement.
+It resulted in that I was practically giving them the solution right away.
+I realised something was not right.
 
 {\it Problem formulation}: Students show a resistance towards performing the independent {\it data analysis}. Consequences are; students have more difficulties reaching the intended lab and course learning outcomes.
 
 
 \section*{Analysis}
-Motivation is one of the most important \dots in student learning.
+Motivation is one of the most important factors in student learning. E.g. Guthrie and Wigfield see .
+The observed resistance is assumed to come of a lack of motivation.
 The analysis is built upon this and the following all connect to the need of student motivation.
-Good?
 
-
-There are mainly two documents handed out to the students in connection to the lab.
-The first one comprises a summary of what is to be learned during the laboratory and also presents preparations and a preparatory exercise.
-The second document presents the lab procedure in detail such as the tasks that should be completed and included in the reports by the students.
-However, the purpose of learning {\it data analysis} is not presented in either of the documents but merely orally in conjunction to relevant subjects during the lab.
-Also, to my knowledge the general learning outcomes are not familiar to the students.
+%There are mainly two documents handed out to the students in connection to the lab.
+%The first one comprises a summary of what is to be learned during the laboratory and also presents preparations and a preparatory exercise.
+%The second document presents the lab procedure in detail such as the tasks that should be completed and included in the reports by the students.
+The purpose of learning {\it data analysis} is not presented in either of the documents handed out in conjunction to the lab.
+It is merely conveyed orally at certain occasions during the lab.
+Also, to my knowledge the general learning outcomes are not familiar to the students (\url{http://kursplaner.lu.se/pdf/kurs/sv/FYSC12}).
 Relevant for the lab are the following:
-\begin{itemize}
-  \item Plan, conduct and report experiment. Planera, genomföra och redovisa experiment.
-  \item Assess experimental results. Värdera experimentella resultat.
-  \item Independently obtain new knowledge and present them orally and in writing. Självständigt kunna inhämta nya kunskaper och redovisa dessa i muntligt och skriftligt.
-\end{itemize}
-One perspective of the teaching scenario relates to {\it constructive alignment} \cite{biggs} (Biggs \& Tang, 2011).
-In fact the {\it data analysis} activities (tasks that are described) are very constructive and directly aligned to the intended learning outcomes of the lab.
+%\begin{itemize}
+%  \item Plan, conduct and report experiment. Planera, genomföra och redovisa experiment.
+%  \item Assess experimental results. Värdera experimentella resultat.
+%  \item Independently obtain new knowledge and present them orally and in writing. Självständigt kunna inhämta nya kunskaper och redovisa dessa i muntligt och skriftligt.
+%\end{itemize}
+One perspective of the teaching scenario indirectly relates to {\it constructive alignment} \cite{biggs}.
+In fact the {\it data analysis} activities, which are clearly presented to the student in one of the documents, are very constructive and directly aligned to the intended learning outcomes of the lab.
 However, the students are not aware of the alignment, the {\it data analysis} flies under the students' radar and its importance is not understood.
 A consequence is that the {\it data analysis} is not meaningful for the student and motivation and engagement drops \cite{illeris} and this could explain some of the resistance.
 
@@ -75,28 +83,23 @@ The situation constitutes a substantial challenge for the student and in combina
 During the full-day lab and the course in its whole there is a large focus on theory.
 Performing the data analysis diverges from the rest of the course in the way that it is a task that is to be completed independently and that it leads up to learning a craft/skill.
 This presents a swift change in the learning method for the students and hence experience an intrinsic resistance ref \dots.
-Motivation is lost.
+Through all the above motivation can be lost.
+
+Some of the native swedish students might also be affected individualised society\dots
 
 
-1. Increasing the student awareness of the data analysis early on should be able to clarify its importance, e.g. via the title of the lab, at the lab introductory meeting, specifically in the learning outcomes and as part of the experimental procedure.
+{\it Proposed improvements}:
+\begin{enumerate}
+  \item Increasing the student awareness of the data analysis early on should be able to clarify its importance, e.g. via the title of the lab, at the lab introductory meeting, specifically in the learning outcomes and as part of the experimental procedure.
 The process of performing the data analysis and its significance in research can be directly related to personal experience of the supervisor from the academia.
 The student should hereby better comprehend the meaningfulness of the {\it data analysis}.
-
-2. Provide some background theory to the data analysis, encourage peer-to-peer discussions and clearly express the possibilities to reach out to the supervisor.
+ \item Provide some background theory to the data analysis, encourage peer-to-peer discussions and clearly express the possibilities to reach out to the supervisor.
 This could be done either on the introductory lab meeting or in the beginning of the lab.
 With such an approach the student might not perceive the task unfeasible and instead embrace the challenge.
-
-3. Clarify a process which helps the student on the way towards this independent learning.
+  \item Clarify a process which helps the student on the way towards this independent learning.
 Construct a related example, which is meaningful and can stimulate the independent problem solving.
-
-
-Student engagement - Motivation - meaningful
-
-
-
-
-but merely in connection to the alignment, in the way that the students are not aware of the alignment of the presented tasks (examination) and that they are related to the intended learning outcome of learning the craft of data analysis.
-The data analysis flies under the radar.
+  \item Do not provide the example code as this might be interpreted by the student it is not important anyways.
+\end{enumerate}
 
 \bibliographystyle{apalike}
 \bibliography{ref}
@@ -104,66 +107,8 @@ The data analysis flies under the radar.
 %\printbibliography
 
 
-
-\section{Notes}
-Laboratory exercise and data analysis : Programming and statistics
-
-Should introduce the course, perhaps base it more on course plan.
-Course: Nuclear Physics and Reactors?
-It is a mandatory course for the science faculty students in the last semester of their second year.
-The course covers theoretical models that describe atomic nuclei.
-The student is also introduced to the detection of nuclear radiation and the experimental part of the field ref(web:course).
-
-I was supervising a laboratory exercise in the course, called $\gamma$-spectroscopy.
-This element is graded and adds up to the final grade of the student for the course.
-This is a full day lab which can be split in two parts, before lunch walking through theory of $\gamma$ rays and radiation detectors and after lunch performing measurements and discussing acquired energy spectra.
-In the second part different tasks that are to be included in the report is carefully described by the supervisor.
-The majority of the tasks cover what is denoted data analysis, i.e. reading in experimental data, calculate specific properties and perform a statistical analysis on the obtained results.
-To successfully complete the data analysis the students need to independently obtain knowledge and program a code.
-Already during the lab session there was some quarelling from the students.
-They want very detailed information of how each calculation should be performed.
-This even though a template code which read in the data and plotted it with Python was provided via the course web page.
-Some students pointed out that they do not know how to program and/or learned sufficient statistics.
-In the process of completing the report several students turned to me for detailed descriptions of what code to implement, my feeling was that they were just looking for the answer right away.
-In the continuation two parts of the course plan were not really conveyed or \dots. These are:
-\begin{itemize}
-  \item Planera, genomföra och redovisa experiment.
-  \item Värdera experimentella resultat.
-  \item Självständigt kunna inhämta nya kunskaper och redovisa dessa i muntligt och skriftligt.
-\end{itemize}
-
-There are mainly two documents handed out to the students in connection to the lab.
-The first one comprises a summary of what is to be learned during the laboratory and also presents preparations and a preparatory exercise.
-The second document presents the lab procedure in detail such as the tasks that should be completed and included in the reports by the students.
-
-Students unclear of what/how to do it? Student wants to be given the code directly\dots
-
-Course home page: \url{http://www.fysik.lu.se/english/education/courses/basic-level/fysc01-course-package/nuclear-physics/}
-
-Is the course plan walked through?
-
-Need to expand this part \dots
-
-
-\subsection{Possible solutions}
-Define the aims/objectives of the lab more clearly. Clarify formulas even more.
-
-There is a swift change in the method of learning.
-Studying theory (students do this in a certain way) and then they need to acquire the craft/skill of performing data analysis, i.e. daq and statistical analysis.
-There is a resistance from the students here.
-Rephrase this as a challenge.
-
-Solutions:
-\begin{itemize}
-  \item Need better motivation to facilitate change
-  \item Clarify early on: $\gamma$-spectroscopy and data analysis
-  \item Provide some background theory to the data analysis as well (on intro-meeting?)
-  \item Strive to center the data analysis in general for the complete course.
-  \item In beta lab the intended learning outcomes are presented in the lab manual.
-  \item Clarify a process which helps the student on the way towards this independent learning. Construct a related example, which is meaningful and can stimulate the independent problem solving.
-\end{itemize}
-
-Pedagogical concepts:
+\end{document}
+\section{Pedagogical concepts}
 \begin{itemize}
   \item Constructive alignment - Are the students aware of that to complete the learning outcomes they need the experimental experience and assessment of measurements (Värdera experimentella resultat) such as independently gather new knowledge and present their findings (this relates to themselves finding ways on how to implement the data analysis code). ILO: specify what is to be learned and HOW. ``The alignment is achieved by ensuring that the intended verb in the outcome statement is present in the teaching/learning activity and in the assessment task.''
     Biggs, John B., et al. Teaching for Quality Learning at University : What the Student Does. vol. 4th ed, McGraw-Hill Education, 2011. EBSCOhost.
@@ -174,8 +119,3 @@ Pedagogical concepts:
   \item Societal discourses - Group dynamics; Give up, cause it's a thing. Need ref\dots
 \end{itemize}
 
-Ref of fame: Lärande / Knud Illeris.
-
-
-
-\end{document}
