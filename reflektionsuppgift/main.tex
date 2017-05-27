@@ -28,14 +28,16 @@
 \lhead{Anton Roth}
 \rhead{\today}
 
+\renewcommand{\footnotesize}{\tiny}
+
 \begin{document}
 
 %\maketitle
 
 \section*{Teaching Scenario}
 Students taking the Physics programme at the Science faculty, Lund University, have a mandatory course on nuclear physics their last semester of the second year.
-Complementary to the theoretically focused lectures, experimental laboratory exercises comprises a mandatory graded part of the course examination.
-The spring of 2017 I was supervising one of the course labs, called {\it $\gamma$-spectroscopy} (\url{http://www.fysik.lu.se/english/education/courses/basic-level/fysc01-course-package/nuclear-physics/laboratory-exercies/}).
+Complementary to the theoretically focused lectures, experimental laboratory exercises comprise a mandatory graded part of the course examination.
+The spring of 2017 I was supervising one of the course labs, called {\it $\gamma$-spectroscopy}\footnote{\url{http://www.fysik.lu.se/english/education/courses/basic-level/fysc01-course-package/nuclear-physics/laboratory-exercies/}}.
 %This is a full-day lab which deals with the theory of detection of $\gamma$ rays before lunch and experimental measurements after lunch which aim to demonstrate important nuclear physics phenomena.
 %All in all, mixed passive and active learning through the day.
 On the lab the students are examined with written reports that are performed in groups of two or three.
@@ -43,67 +45,75 @@ On the lab the students are examined with written reports that are performed in 
 An important part of the examination is, what is denoted, {\it data analysis}.
 The data analysis constitutes reading in experimental data, calculate specific properties and perform a statistical analysis on the obtained results.
 It is most preferably achieved with a programmed script.
-As opposed to the course in general and large parts of the lab itself, which have a knowledge/understanding learning focus, the data analysis is a skill/competence to be learned.
-Additionally, the students need to independently acquire the skill/competence while the rest of the course is more teacher supported.
+As opposed to the course in general and large parts of the lab itself, which have a knowledge/understanding learning focus, the data analysis is a skill to be learned.
+Additionally, the students need to independently acquire the skill while the rest of the course is more teacher supported.
 At the point in the lab session when the students realised what was about to come, they presented their worries.
-It is pointed out that they lack programming skills and basic knowledge of statistics.
-A template example code and a hand-out of introduction to statistical analysis was provided via the course web page for the purpose of giving the students an extra push to the independent data analysis.
-In the process of completing the report several students turned to me for detailed descriptions of what code to implement.
-It resulted in that I was practically giving them the solution right away.
+One example from an email conversation is the following: ``We are having a bit of trouble with the data analysis for the gamma lab, in that we think we know what we're supposed to be doing, but have no clue how to do it.''
+%It is pointed out that they lack programming skills and basic knowledge of statistics.
+A template example code and a hand-out giving an introduction to statistical analysis was provided via the course web page for the purpose of giving the students an extra push to the independent data analysis.
+In the process of completing the report several students turned to me (see quotation above) for detailed descriptions of what code to implement.
+It resulted in that I was practically giving them the solution at once.
 I realised something was not right.
 
-{\it Problem formulation}: Students show a resistance towards performing the independent {\it data analysis}. Consequences are; students have more difficulties reaching the intended lab and course learning outcomes.
+{\bf Problem formulation}: Students can be interpreted to show a resistance towards performing the independent data analysis. A consequences is; students have more difficulties reaching the intended lab and course learning outcomes.
 
 
 \section*{Analysis}
-Motivation is one of the most important factors in student learning. E.g. Guthrie and Wigfield see .
-The observed resistance is assumed to come of a lack of motivation.
-The analysis is built upon this and the following all connect to the need of student motivation.
+The analysis is limited to three perspectives; {\it constructive alignment}, {\it zone of proximal development} and an individualistic customer approach to education.
+%Motivation is one of the most important factors in student learning \cite{illeris}.
+%Add what brings motivation; meaningfulness, confidence/lagom challenge, support and introduction. Then connect to these below.
 
 %There are mainly two documents handed out to the students in connection to the lab.
 %The first one comprises a summary of what is to be learned during the laboratory and also presents preparations and a preparatory exercise.
 %The second document presents the lab procedure in detail such as the tasks that should be completed and included in the reports by the students.
-The purpose of learning {\it data analysis} is not presented in either of the documents handed out in conjunction to the lab.
+One perspective of the teaching scenario indirectly relates to {\it constructive alignment} \cite{biggs}.
+The purpose of learning data analysis is not presented in either of the documents handed out in conjunction to the lab.
 It is merely conveyed orally at certain occasions during the lab.
-Also, to my knowledge the general learning outcomes are not familiar to the students (\url{http://kursplaner.lu.se/pdf/kurs/sv/FYSC12}).
-Relevant for the lab are the following:
+The intended course learning outcomes are generally not familiar to the students\footnote{\url{http://kursplaner.lu.se/pdf/kurs/sv/FYSC12}}.
+%Relevant for the lab are the following:
 %\begin{itemize}
 %  \item Plan, conduct and report experiment. Planera, genomföra och redovisa experiment.
 %  \item Assess experimental results. Värdera experimentella resultat.
 %  \item Independently obtain new knowledge and present them orally and in writing. Självständigt kunna inhämta nya kunskaper och redovisa dessa i muntligt och skriftligt.
 %\end{itemize}
-One perspective of the teaching scenario indirectly relates to {\it constructive alignment} \cite{biggs}.
-In fact the {\it data analysis} activities, which are clearly presented to the student in one of the documents, are very constructive and directly aligned to the intended learning outcomes of the lab.
-However, the students are not aware of the alignment, the {\it data analysis} flies under the students' radar and its importance is not understood.
-A consequence is that the {\it data analysis} is not meaningful for the student and motivation and engagement drops \cite{illeris} and this could explain some of the resistance.
+In fact the data analysis activities, which are clearly presented to the student in one of the documents, are very constructive and directly aligned to the intended learning outcomes of the lab.
+However, the students are not aware of the alignment, the data analysis flies under the students' radar and its importance is not understood.
+A consequence is that they do not see the data analysis as meaningful and motivation and engagement drops \cite{saljo} and this could explain some of the resistance.
 
 Several students point out that they do not have sufficient knowledge to complete the data analysis.
-These students can be assumed to be in the zone of proximal development ref\dots and consider themselves unable to complete the tasks on their own.
-For some students the situation constitutes a substantial challenge for the student and in combination with the limited support they drop back ref Davoz, p. 53.
-During the full-day lab and the course in its whole there is a large focus on theory.
-Performing the data analysis diverges from the rest of the course in the way that it is a task that is to be completed independently and that it leads up to learning a craft/skill.
-This presents a swift change in the learning method for the students and hence experience an intrinsic resistance ref \dots.
-Through all the above motivation can be lost.
+%Or they are not aware of how to apply their knowledge.
+These students can be positioned in some phase of the {\it zone of proximal development} \cite{saljo, vygotski} and consider themselves unable to complete the tasks on their own.
+For some students the situation constitutes a substantial challenge for the student and in combination with the limited support they retreat \cite{daloz}.
+%During the full-day lab and the course in its whole there is a large focus on theory.
+%Performing the data analysis diverges from the rest of the course in the way that it is a task that is to be completed independently and that it leads up to learning a craft/skill.
+%This presents a swift change in the learning method for the students and hence experience an intrinsic resistance ref \dots.
+%Through all the above motivation can be lost.
 
-At least some of the native swedish students might be affected by an individualistic customer/New public management way in education REF.
-The individualised students see themselves as customers and assume that the teacher provides the services needed for the product; their learning.
+The theory of individualistic customer education might play a role for the native swedish students \cite{kund}.
+%At least some of the native swedish students might be affected by an individualistic customer/New public management view REF.
+In this theory students see themselves as customers and assume that the teacher provides the services needed for the product; their learning.
 In the teaching scenario this corresponds to students asking for detailed explanations and me as a teacher giving the students solutions.
-{\it Improvements:} Clarify expectations on students and make connections to real-life applications.
+%{\it Improvements:} Clarify expectations on students and make connections to real-life applications.
 
-{\it Proposed improvements}:
+{\bf Proposed improvements}:
 \begin{enumerate}
   \item Increasing the student awareness of the data analysis early on should be able to clarify its importance, e.g. via the title of the lab, at the lab introductory meeting, specifically in the learning outcomes and as part of the experimental procedure.
-    The teacher can make connections to real-life utilisation, i.e. in academia or industry, of data analysis.
-The student should hereby better comprehend the meaningfulness of the {\it data analysis}.
- \item Provide some background theory to the data analysis, encourage peer-to-peer discussions and clearly express the possibilities to reach out to the supervisor.
+  The teacher can make connections to real-life applications of data analysis in academia and industry.
+  Through this, the student should hereby better comprehend the meaningfulness of the data analysis \cite{saljo}.
+\item Provide some background theory to the data analysis, encourage peer-to-peer discussions and clearly express the possibilities to reach out to the supervisor.
 This could be done either on the introductory lab meeting or in the beginning of the lab.
-With such an approach the student might not perceive the task unfeasible and instead embrace the challenge.
+With such an approach the student might not perceive the task unfeasible and instead embrace the challenge \cite{saljo, vygotski, daloz}.
   \item Clarify a process which helps the student on the way towards this independent learning.
-Construct a related example, which is meaningful and can stimulate the independent problem solving.
-  \item Do not provide the example code as this might be interpreted by the student it is not important anyways.
+    For instance, ask the students in pair to discuss an approach, in steps, of how to complete the data analysis \cite{saljo,vygotski}.
+  %Construct a related example, which is meaningful and can stimulate the independent problem solving \cite{saljo,vygotski}
+  %\item Do not provide the example code as this might be interpreted by the student it is not important anyways.
+  \item Clarify what is expected of the student to complete the lab, both orally and in text, and clearly present the task as difficult and that it requires a lot of work.
+    By making this clear the student recognises their role and a customer-service relation is not established \cite{kund}.
 \end{enumerate}
 
-\bibliographystyle{apalike}
+\tiny
+%\bibliographystyle{apalike}
+\bibliographystyle{unsrt}
 \bibliography{ref}
 
 %\printbibliography

@@ -1,13 +1,29 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 
-\bibitem[Biggs and Tang, 2011]{biggs}
-Biggs, J.~B. and Tang, C. (2011).
+\bibitem{biggs}
+John~B Biggs and Catherine Tang.
 \newblock {\em Teaching for quality learning : what the student does}.
-\newblock Maidenhead : Open University Press.
+\newblock Maidenhead : Open University Press, 2011.
 
-\bibitem[Illeris, 2015]{illeris}
-Illeris, K. (2015).
-\newblock {\em L\"{a}rande}.
-\newblock 2nd edition, Lund: Studentlitteratur.
+\bibitem{saljo}
+R~S\"{a}lj\"{o}.
+\newblock {\em L\"{a}rande i praktiken}.
+\newblock Stockholm: Prisma, 2000.
+
+\bibitem{vygotski}
+L.~S. Vygotski.
+\newblock {\em Mind and the society: The development of higher psychological
+  processer}.
+\newblock Cambridge, MA: Harvard University Press, 1978.
+
+\bibitem{daloz}
+L.~A. Daloz.
+\newblock {\em Mentor: Guiding the journey of adult learners}.
+\newblock 2nd edition, San Francisco: Jossey-Bass, 1999.
+
+\bibitem{kund}
+Cecilia Arensmeier and Ann-Sofie~Lennqvist Lindén.
+\newblock Studenter som kunder och konsten att vara lärare.
+\newblock {\em Statsvetenskaplig tidskrifts arkiv}, 2014.
 
 \end{thebibliography}
