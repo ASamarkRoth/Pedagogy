@@ -38,6 +38,7 @@ _Stöd_
 **BOK**: Tänka snabbt och tänka långsamt
 
 _Kognitiv dissonans_: "Rubbad bild av verkligheten. Olika vetskaper som inte stämmer överens och triggar search for truth." (se bok)
+
 * Stimulera genom: 
 * Social trygghet
 * Erkänna svårigheter hos läraren
