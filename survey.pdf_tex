@@ -1,0 +1,91 @@
+%% Creator: Inkscape inkscape 0.48.4, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'survey.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{595.27558594bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.4142857)%
+    \put(0,0){\includegraphics[width=\unitlength]{survey.pdf}}%
+    \put(0.1590661,1.22093008){\makebox(0,0)[lb]{\smash{Learning}}}%
+    \put(0.1590661,1.19090197){\makebox(0,0)[lb]{\smash{Choose the answer which best explains your preference and click the box next to it. Tick}}}%
+    \put(0.1590661,1.17074324){\makebox(0,0)[lb]{\smash{more than one if a single answer does not match your perception.}}}%
+    \put(0.19182403,1.1014476){\makebox(0,0)[lb]{\smash{A group of tourists wants to learn about the parks or wildlife reserves in your}}}%
+    \put(0.19182403,1.08128887){\makebox(0,0)[lb]{\smash{area. You would:}}}%
+    \put(0.19182403,1.0570354){\makebox(0,0)[lb]{\smash{Tick all that apply.}}}%
+    \put(0.23249845,1.01951078){\makebox(0,0)[lb]{\smash{talk about, or arrange a talk for them about parks or wildlife reserves.}}}%
+    \put(0.23249845,0.98780278){\makebox(0,0)[lb]{\smash{show them maps and internet pictures.}}}%
+    \put(0.23249845,0.95609477){\makebox(0,0)[lb]{\smash{take them to a park or wildlife reserve and walk with them.}}}%
+    \put(0.23249845,0.92438677){\makebox(0,0)[lb]{\smash{give them a book or pamphlets about the parks or wildlife reserves.}}}%
+    \put(0.17359718,1.1014476){\makebox(0,0)[lb]{\smash{1.}}}%
+    \put(0.19182403,0.86909724){\makebox(0,0)[lb]{\smash{You have to make an important speech at a conference or special occasion.}}}%
+    \put(0.19182403,0.84893851){\makebox(0,0)[lb]{\smash{You would:}}}%
+    \put(0.19182403,0.82468503){\makebox(0,0)[lb]{\smash{Tick all that apply.}}}%
+    \put(0.23249845,0.78716041){\makebox(0,0)[lb]{\smash{gather many examples and stories to make the talk real and practical.}}}%
+    \put(0.23249845,0.75545241){\makebox(0,0)[lb]{\smash{write a few key words and practice saying your speech over and over.}}}%
+    \put(0.23249845,0.72374441){\makebox(0,0)[lb]{\smash{write out your speech and learn from reading it over several times.}}}%
+    \put(0.23249845,0.6920364){\makebox(0,0)[lb]{\smash{make diagrams or get graphs to help explain things.}}}%
+    \put(0.17359718,0.86909724){\makebox(0,0)[lb]{\smash{2.}}}%
+    \put(0.19182403,0.63674687){\makebox(0,0)[lb]{\smash{You are about to purchase a digital camera or mobile phone. Other than price,}}}%
+    \put(0.19182403,0.61658814){\makebox(0,0)[lb]{\smash{what would most influence your decision?}}}%
+    \put(0.19182403,0.59233467){\makebox(0,0)[lb]{\smash{Tick all that apply.}}}%
+    \put(0.23249845,0.55481005){\makebox(0,0)[lb]{\smash{It is a modern design and looks good.}}}%
+    \put(0.23249845,0.52310199){\makebox(0,0)[lb]{\smash{Trying or testing it.}}}%
+    \put(0.23249845,0.49139399){\makebox(0,0)[lb]{\smash{The salesperson telling me about its features.}}}%
+    \put(0.23249845,0.45968599){\makebox(0,0)[lb]{\smash{Reading the details or checking its features online.}}}%
+    \put(0.17359718,0.63674687){\makebox(0,0)[lb]{\smash{3.}}}%
+    \put(0.19182403,0.4043965){\makebox(0,0)[lb]{\smash{You have a problem with your heart. You would prefer that the doctor:}}}%
+    \put(0.19182403,0.38014303){\makebox(0,0)[lb]{\smash{Tick all that apply.}}}%
+    \put(0.23249845,0.34261836){\makebox(0,0)[lb]{\smash{showed you a diagram of what was wrong.}}}%
+    \put(0.23249845,0.31091036){\makebox(0,0)[lb]{\smash{used a plastic model to show what was wrong.}}}%
+    \put(0.23249845,0.27920236){\makebox(0,0)[lb]{\smash{described what was wrong.}}}%
+    \put(0.23249845,0.24749435){\makebox(0,0)[lb]{\smash{gave you something to read to explain what was wrong.}}}%
+    \put(0.17359718,0.4043965){\makebox(0,0)[lb]{\smash{4.}}}%
+    \put(0.02897929,1.36519099){\makebox(0,0)[lb]{\smash{Learninghttps://docs.google.com/forms/d/1koyNd9EykG...
+1 of 52017-06-06 20:41}}}%
+    \put(0.55116918,1.37113511){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39369223\unitlength}\raggedright \\     © Copyright Version 7.8 (2014) held by VARK Learn Limited, Christchurch, New Zealand.    © Copyright Version 7.8 (2014) held by VARK Learn Limited, Christchurch, New Zealand.    © Copyright Version 7.8 (2014) held by VARK Learn Limited, Christchurch, New Zealand.\\ \\ \\ \\ \\ \\ \\ \\ \end{minipage}}}%
+  \end{picture}%
+\endgroup%
