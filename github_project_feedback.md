@@ -6,7 +6,11 @@ Välskriven och omfattande rapport. Trevlig läsning och intressant ämne.
 
 ### Format ###
 
+<<<<<<< HEAD
 * För läsare som inte känner till Git eller GitHub är det kanske bättre att beskrivningen av dessa presenteras först. 
+=======
+* För läsare som inte känner till Git eller GitHub är det inte bättre att beskrivningen av dessa presenteras först. 
+>>>>>>> 2e36e9c788ce94dec08791d76b2c50ffbde32075
 * Ni beskriver slutsatser under sektionen Diskussion bra. 
 Vad sägs om att göra det till en separat sektion: "Conclusions". 
 (Enklare för läsare att navigera i rapporten)
@@ -31,12 +35,21 @@ Teori presenteras ingående i litteraturstudierna för de olika koncepten.
 ## Analys - slutsatser och kritisk granskning av dessa## 
 Slutsatser omfattar flertalet aspekter och kopplar till teorin som presenteras.
 
+<<<<<<< HEAD
 "GitHub can be used in many different ways but it might not be applicable in all types of courses." Vilka kursparametrar passar? Hur kan vi applicera GitHub i en fysiklaboration?
 Exempel från gamma labb.
 
 Kritisk granskning: "A possible drawback is that the students might not feel comfortable with having it public and therefore their motivation could be decreased.". Är det vanligt förekommande? Finns det några studier som tar upp detta?
 
 Det verkar som att integration av GitHub i programmeringsgrundkursen ledde till större _student engagement_ men ledde det till bättre resultat?
+=======
+* "GitHub can be used in many different ways but it might not be applicable in all types of courses." Vilka kursparametrar passar? Hur kan vi applicera GitHub i en fysiklaboration?
+Exempel från gamma labb.
+
+Kritik: "A possible drawback is that the students might not feel comfortable with having it public and therefore their motivation could be decreased.". Är det vanligt förekommande? Finns det några studier som tar upp detta?
+
+* Det verkar som att det ledde till större _student engagement_ men ledde det till bättre resultat?
+>>>>>>> 2e36e9c788ce94dec08791d76b2c50ffbde32075
 
 ## Referenshantering ##
 Referenser används friskt och referenslistan ser bra ut. 
